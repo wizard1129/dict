@@ -1,0 +1,49 @@
+dict = {
+    "Fname":"Lionel",
+    "Lname":"Messi",
+    "Age":37,
+    "weight":148,
+    "kids":3,
+    "WORLD FIFA BEST PLAYER":8,
+}
+
+#print(dict)
+print(" ")
+#print("My First Name is,dict["Fname]")
+#print(dict.keys())
+#print(dict.value())
+#print(dict.items())
+
+
+dict["Fname"]="Lion"
+dict.update({"Age":18})
+
+dict["Fav_food"]="pasta"
+dict.update({"height":"5,7"})
+
+#dict.pop("Age")
+#dict.popitem()
+#del dict["Lname"]
+#del dict
+#dict.clear()
+#print(dict)
+
+##for detail in dict:
+#    print(detail)
+
+#for key in dict.keys(:
+#    print(key))
+
+#for value in dict.value(:
+#    print(value))
+
+#for key,value in dict.items(:
+#    print(key,value))
+
+friends = {}
+for i in range(5):
+    Fname=input("Enter first name of:",)
+    Lname=input("Enter last name of:",)
+    friends[Fname]=Lname
+
+print(friends)
